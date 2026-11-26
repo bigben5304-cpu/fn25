@@ -31,7 +31,7 @@ void Main()
     SDK::Init();
 
     {
-        const double expected = 1.82;
+        const double expected = 2.5;
         const double got = VersionInfo.FortniteVersion;
         if (got < 0.01 || (got < expected - 0.005) || (got > expected + 0.005))
             ExitProcess(0);
